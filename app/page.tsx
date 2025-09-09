@@ -1,29 +1,26 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 
-import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
-import { FloatingNav } from "@/components/ui/FloatingNav";
-import { FaHome } from "react-icons/fa";
-import RecentProjects from "@/components/ui/RecentProjects";
-import { navItems } from "@/data/index";
-import Clients from "@/components/ui/Clients";
-import Experience from "@/components/ui/Experience";
-import Approach from "@/components/ui/Approach";
-import Footer from "@/components/ui/Footer";
+const Hero = dynamic(() => import('@/components/Hero'), { ssr: false });
+const Grid = dynamic(() => import('@/components/Grid'), { ssr: false });
+const RecentProjects = dynamic(() => import('@/components/ui/RecentProjects'), { ssr: false });
+const Clients = dynamic(() => import('@/components/ui/Clients'), { ssr: false });
+const Experience = dynamic(() => import('@/components/ui/Experience'), { ssr: false });
+const Approach = dynamic(() => import('@/components/ui/Approach'), { ssr: false });
+const Footer = dynamic(() => import('@/components/ui/Footer'), { ssr: false });
+
 export default function Home() {
   return (
-   
     <main className="relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5 overflow-hidden">
       <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems}/>
-        <Hero/>
-        <Grid/>
-        <RecentProjects/>
-        <Clients/>
-        <Experience/>
-        <Approach/>
-        <Footer/>
+        <Hero />
+        <Grid />
+        <RecentProjects />
+        <Clients />
+        <Experience />
+        <Approach />
+        <Footer />
       </div>
     </main>
   );
