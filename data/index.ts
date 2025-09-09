@@ -70,74 +70,115 @@ export const navItems = [
   ];
   
   export const projects = [
-    {
-      id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://harshbisht27-solar-system.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
-  ];
+  {
+    id: 1,
+    title: "StudyNotion - Student Platform for New Learning",
+    des: "Study Notion is a remarkable EdTech platform, developed with modern technologies.",
+    img: "/p1.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://studynotion-deploy.onrender.com/",
+  },
+  {
+    id: 2,
+    title: "Tomato - Food Delivery Website",
+    des: "Food ordering website which helps users order food online quickly and efficiently.",
+    img: "/p2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://tomato-fooddeliveryfrontend.onrender.com/",
+  },
+  {
+    id: 3,
+    title: "NamasteAI - Gemini AI Chatbot Clone",
+    des: "NamasteAI is designed to recreate the experience of using Google’s Gemini AI chatbot within a custom-built web application.",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://harshbisht27-namasteai.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "Spotify Clone",
+    des: "A fully functional Spotify Clone that allows users to play music, explore playlists, and experience the core features of Spotify with a seamless, responsive UI.",
+    img: "/p4.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://spotify-clone-z6tu.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "Splitr - AI Expense Splitter",
+    des: "AI Splitwise is a full-stack expense splitter using Next.js, Convex, Inngest, and GeminiAI to intelligently divide bills through natural language input with a clean, responsive UI.",
+    img: "/p5.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://ai-splitwise-five.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "AI Content Generator",
+    des: "AI-Content Generator helps users create high-quality content seamlessly. Built with Next.js, TailwindCSS, Clerk authentication, PostgreSQL, and Google Gemini API for performance and scalability.",
+    img: "/p6.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://ai-content-harsh-sepia.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "AI Resume Builder",
+    des: "Create a professional, standout resume effortlessly with our AI-powered builder. Generate polished, tailored resumes that highlight skills and experience in just a few clicks.",
+    img: "/p7.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://ai-resume-builder-frontend-l6x2.onrender.com/",
+  },
+  {
+    id: 8,
+    title: "CookMom - Online Recipe Finder",
+    des: "CookMom helps users discover a wide variety of recipes. Search by categories, ingredients, or dietary preferences with a simple and intuitive interface.",
+    img: "/p8.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://harshbisht27-cookmom.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "Sleep Tracker App",
+    des: "A modern sleep tracking web application built with Next.js 15, featuring real-time analytics, personalized insights, and comprehensive sleep data visualization.",
+    img: "/p9.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://sleep-tracker-weld.vercel.app/",
+  },
+];
+
   
   export const testimonials = [
-    {
-      quote:
-        "Collaborating with Harsh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Harsh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Harsh is the ideal partner.",
-      name: "Michael Johnson",
-      title: "One of my Collegaue",
-    },
-    {
-      quote:
-        "Collaborating with Harsh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Harsh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Harsh is the ideal partner.",
-      name: "Michael Johnson",
-      title: "One of my Collegaue",
-    },
-    {
-      quote:
-        "Collaborating with Harsh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Harsh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Harsh is the ideal partner.",
-      name: "Michael Johnson",
-      title: "One of my Collegaue",
-    },
-    {
-      quote:
-        "Collaborating with Harsh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Harsh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Harsh is the ideal partner.",
-      name: "Michael Johnson",
-      title: "One of my Collegaue",
-    },
-    {
-      quote:
-        "Collaborating with Harsh was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Harsh's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Harsh is the ideal partner.",
-      name: "Michael Johnson",
-      title: "One of my Collegaue",
-    },
-  ];
-  
+  {
+    quote:
+      "Working with Harsh has been an inspiring experience. His commitment, creativity, and ability to solve challenges with ease made our collaboration smooth and impactful. He brings both technical skill and passion to every project.",
+    name: "Jaskirat Singh",
+    title: "Friend & Collaborator",
+  },
+  {
+    quote:
+      "Harsh approaches every project with incredible energy and focus. His problem-solving mindset and dedication to quality shine through in his work. I truly admire his consistency and innovative thinking.",
+    name: "Kartik Arora",
+    title: "Close Friend",
+  },
+  {
+    quote:
+      "I’ve seen Harsh put his heart into every detail of development. His professional approach, patience, and eagerness to learn make him someone you’d always want on your team. Truly reliable and talented.",
+    name: "Vedant Patil",
+    title: "Batchmate",
+  },
+  {
+    quote:
+      "Harsh’s ability to blend creativity with technical expertise sets him apart. He’s always ready to go the extra mile, ensuring projects turn out even better than expected. A pleasure to work alongside.",
+    name: "Harsh Tiwari",
+    title: "College Friend",
+  },
+  {
+    quote:
+      "Harsh is someone who always strives for excellence. His professionalism, clarity in communication, and passion for building great products leave a strong impression on everyone he works with.",
+    name: "Ayush Pandey",
+    title: "Long-time Friend",
+  },
+];
  
+
   export const workExperience = [
     {
       id: 1,
@@ -148,7 +189,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Mobile App Dev - React Native",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
@@ -173,10 +214,12 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link:"https://github.com/harshbisht27",
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://x.com/HarshBisht25402",
     },
     {
       id: 3,
