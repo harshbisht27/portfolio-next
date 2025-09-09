@@ -18,13 +18,14 @@ const Footer = () => {
         {/* Buttons Container */}
         <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center items-center mt-4">
           {/* Contact Button */}
-          <a href="mailto:harshbisht180@gmail.com">
-            <MagicButton
-              title="Let's get in touch"
-              icon={<FaLocationArrow />}
-              position="right"
+         <a href="mailto:harshbisht180@gmail.com">
+        <MagicButton
+            title="Let&apos;s get in touch"
+            icon={<FaLocationArrow />}
+            position="right"
             />
-          </a>
+        </a>
+
 
           {/* Resume Button */}
           <a
