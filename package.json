@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:render": "NEXT_DISABLE_ESLINT_PLUGIN=true next build"
   },
   "dependencies": {
     "@react-three/drei": "^9.107.0",
